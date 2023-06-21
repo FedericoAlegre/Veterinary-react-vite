@@ -7,7 +7,7 @@ function PacientsList({pacients , setPacient, deletePacient}) {
 
       {pacients && pacients.length ? (
         <>
-          <h2 className="font-black mt-5 text-3xl text-center">Pacients List</h2>
+          <h2 className="font-black text-3xl text-center">Pacients List</h2>
           <p className="text-lg my-5 text-center">
             Manage your {""}<span className="text-cyan-400 font-bold">Patients and Appointments</span>          
           </p>
